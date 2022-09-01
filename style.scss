@@ -1,0 +1,56 @@
+@import 'partials/globals',
+        'partials/mixins',
+        'partials/responsive',
+        'partials/typography',
+        'partials/variables';
+
+#card {
+    background-color: #000000d0;
+    color: #f5f5f5;
+    padding: 25px 30px;
+    border-radius: 30px;
+    margin: 16px;
+    width: 100%;
+    max-width: 480px;
+    .search {
+        @include flex-central-alignment;
+        button {
+            margin: 5px;
+            border-radius: 50%;
+            border: none;
+            height: 45px;
+            width: 45px;
+            outline: none;
+            background: #7c7c7c2b;
+            color: #f5f5f5;
+            cursor: pointer;
+            transition: $transition-03;
+            &:hover {
+                transform: scale(1.1);
+                transition: $transition-03;
+            }
+        }
+        input {
+            border: none;
+            outline: none;
+            padding: 8px 16px;
+            border-radius: 24px;
+            background: #7c7c7c2b;
+            color: #f5f5f5;
+            font-family: inherit;
+            font-size: 120%;
+            width: calc(100% - 50px);
+            transition: $transition-03;
+            &:focus {
+                background: #dddddd2d
+            }
+            &:hover {
+                background: #dddddd2d;
+                transition: $transition-03;
+            }
+        }
+    }
+    .search, .city {
+        padding-bottom: 20px;
+    }
+}
