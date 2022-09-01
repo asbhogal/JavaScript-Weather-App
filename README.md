@@ -1,6 +1,6 @@
 <h1>JavaScript Weather App</h1>
 
-A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherMap API. This repo is currently under development.
+A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the VisualCrossing API. This repo is currently under development.
 
 <strong>Features:</strong><br>
   - Modern stylish interface
