@@ -1,12 +1,11 @@
 <h1>JavaScript Weather App</h1>
 
-A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the VisualCrossing API. This repo is currently under development.
+A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API.
 
 <strong>Features:</strong><br>
   - Modern stylish interface
-  - A city's current weather via VisualCrossing API
-  - Alternating backgrounds via Unsplash API
-  - A validation check for city inputs
+  - Retrieves and displays a city's current weather via OpenWeatherMap API
+  - Backgrounds based on the city inputted via Unsplash API
   - Full responsiveness
   - Optimised for the web
 
