@@ -11,7 +11,6 @@ body {
   height: 100vh;
   background-color: #222;
   background-size: cover;
-  transition: 0.3s all ease-in !important;
 }
 
 /* NOTO SERIF DISPLAY - LATIN - 300 LIGHT */
@@ -105,10 +104,6 @@ body {
 }
 #card .humidity {
   padding-bottom: 5px;
-}
-
-.weather {
-  transition: 0.3s all ease-in !important;
 }
 
 .weather .loading {
