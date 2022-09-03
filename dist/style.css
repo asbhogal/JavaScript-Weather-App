@@ -89,9 +89,17 @@ body {
 #card .search, #card .city {
   padding-bottom: 20px;
 }
-#card .description {
+#card .description-section {
+  display: flex;
+  align-items: center;
+}
+#card .description-section .icon {
+  margin-left: -20px;
+}
+#card .description,
+#card .wind {
   text-transform: capitalize;
 }
-#card .weather-info:not(:last-child) {
-  padding-bottom: 2px;
+#card .humidity {
+  padding-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */

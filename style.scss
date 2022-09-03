@@ -53,10 +53,18 @@
     .search, .city {
         padding-bottom: 20px;
     }
-    .description {
+    .description-section {
+        display: flex;
+        align-items: center;
+        .icon {
+            margin-left: -20px;
+        }
+    }
+    .description,
+    .wind {
         text-transform: capitalize;
     }
-    .weather-info:not(:last-child) {
-        padding-bottom: 2px;
+    .humidity {
+        padding-bottom: 5px;
     }
 }
