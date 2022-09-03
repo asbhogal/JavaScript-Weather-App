@@ -88,4 +88,10 @@ body {
 }
 #card .search, #card .city {
   padding-bottom: 20px;
+}
+#card .description {
+  text-transform: capitalize;
+}
+#card .weather-info:not(:last-child) {
+  padding-bottom: 2px;
 }/*# sourceMappingURL=style.css.map */

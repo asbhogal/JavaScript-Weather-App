@@ -53,4 +53,10 @@
     .search, .city {
         padding-bottom: 20px;
     }
+    .description {
+        text-transform: capitalize;
+    }
+    .weather-info:not(:last-child) {
+        padding-bottom: 2px;
+    }
 }
