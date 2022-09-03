@@ -1,3 +1,4 @@
 .vscode
 src/config.js
 src/LondonWeather.json
+src/omitted-code.txt
