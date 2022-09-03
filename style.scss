@@ -71,3 +71,21 @@
         padding-bottom: 5px;
     }
 }
+
+.weather {
+    transition: 0.3s all ease-in !important;
+}
+
+.weather .loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+    &::after {
+        visibility: visible;
+        content: "Loading...";
+        color: #f5f5f5;
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+}
