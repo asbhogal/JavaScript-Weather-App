@@ -1,7 +1,7 @@
 <div align="center">
 <h1>JavaScript Weather App</h1>
 
-<br><br> ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Weather-App?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Weather-App?color=blueviolet&style=for-the-badge&labelColor=000)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Weather-App?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Weather-App?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
