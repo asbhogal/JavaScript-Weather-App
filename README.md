@@ -5,7 +5,7 @@
 
 </div>
 
-A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API.
+A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API. Please note that the API is privately stored and a separate file/env will be configured.
 
 <strong>Features:</strong><br>
   - Modern stylish interface
