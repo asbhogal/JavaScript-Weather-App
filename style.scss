@@ -1,6 +1,5 @@
 @import 'partials/globals',
         'partials/mixins',
-        'partials/responsive',
         'partials/typography',
         'partials/variables';
 
@@ -24,10 +23,20 @@
             background: #7c7c7c2b;
             color: #f5f5f5;
             cursor: pointer;
-            transition: $transition-03;
+            transition:         $transition-03;
+            -webkit-transition: $transition-03;
+            -moz-transition:    $transition-03;
+            -o-transition:      $transition-03;
             &:hover {
-                transform: scale(1.1);
-                transition: $transition-03;
+                transform:          scale(1.1);
+                -webkit-transform:  scale(1.1);
+                -moz-transform:     scale(1.1);
+                -o-transform:       scale(1.1);
+                -ms-transform:      scale(1.1);
+                transition:         $transition-03;
+                -webkit-transition: $transition-03;
+                -moz-transition:    $transition-03;
+                -o-transition:      $transition-03;
             }
         }
         input {
@@ -40,13 +49,19 @@
             font-family: inherit;
             font-size: 120%;
             width: calc(100% - 50px);
-            transition: $transition-03;
+            transition:         $transition-03;
+            -webkit-transition: $transition-03;
+            -moz-transition:    $transition-03;
+            -o-transition:      $transition-03;
             &:focus {
                 background: #dddddd2d
             }
             &:hover {
                 background: #dddddd2d;
-                transition: $transition-03;
+                transition:         $transition-03;
+                -webkit-transition: $transition-03;
+                -moz-transition:    $transition-03;
+                -o-transition:      $transition-03;
             }
         }
     }

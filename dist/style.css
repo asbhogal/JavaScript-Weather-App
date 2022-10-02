@@ -61,10 +61,20 @@ body {
   color: #f5f5f5;
   cursor: pointer;
   transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 #card .search button:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 #card .search input {
   border: none;
@@ -77,6 +87,9 @@ body {
   font-size: 120%;
   width: calc(100% - 50px);
   transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 #card .search input:focus {
   background: rgba(221, 221, 221, 0.1764705882);
@@ -84,6 +97,9 @@ body {
 #card .search input:hover {
   background: rgba(221, 221, 221, 0.1764705882);
   transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 #card .search, #card .city {
   padding-bottom: 20px;
