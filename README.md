@@ -5,6 +5,8 @@
 
 ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/JavaScript-Weather-App/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Weather-App?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Weather-App?color=blueviolet&style=for-the-badge&labelColor=000)
 
+![Project Snapshot] ()
+
 </div>
 
 A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API. A background image of the city searched for also appears, using the Unsplash API. This has been built with Vite and deployed via Vercel.
