@@ -28,3 +28,7 @@ A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the 
 
 <strong>:link: Links</strong><br>
  - <a target="_blank" href="https://javascript-weatherapp.vercel.app">JavaScript Weather App</a>
+
+ <strong>Attributions</strong><br>
+  - Favicon by <a href="https://freeicons.io/profile/5790">ColourCreatype</a> on <a href="https://freeicons.io">freeicons.io</a>
+                                
