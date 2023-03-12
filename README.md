@@ -5,7 +5,7 @@
 
 </div>
 
-A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API. Please note that the API is privately stored and a separate file/env will be configured.
+A weather app coded using HTML5, CSS3 (SCSS) and JavaScript which leverages the .fetch() to get data from the OpenWeatherApp API. A background image of the city searched for also appears, using the Unsplash API. This has been built with Vite and deployed via Vercel.
 
 <strong>Features:</strong><br>
   - Modern stylish interface
