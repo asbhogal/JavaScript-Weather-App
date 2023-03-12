@@ -5,7 +5,7 @@
 
 ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/JavaScript-Weather-App/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Weather-App?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Weather-App?color=blueviolet&style=for-the-badge&labelColor=000)
 
-![Project Snapshot] ()
+![Project Snapshot](https://github.com/asbhogal/JavaScript-Weather-App/blob/main/src/assets/ProjectSnapshot.png)
 
 </div>
 
