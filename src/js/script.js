@@ -1,7 +1,7 @@
 import '../scss/style.scss';
 
 let weather = {
-    "apiKey" : process.env.VITE_OPEN_WEATHER_API_KEY,
+    "apiKey" : process.env.OPEN_WEATHER_API_KEY,
     fetchWeather: function (city) {
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
