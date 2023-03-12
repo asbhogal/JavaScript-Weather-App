@@ -1,0 +1,28 @@
+/* NOTO SERIF DISPLAY - LATIN - 300 LIGHT */
+
+@font-face {
+    font-family: 'Noto Serif Display';
+    font-weight: 100;
+    src: url('/src/fonts/NotoSerifDisplay-Light.woff') format('woff'),
+         url('/src/fonts/NotoSerifDisplay-Light.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* NOTO SANS - LATIN - 300 THIN */
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    src: url('/src/fonts/NotoSans-Thin.woff') format('woff'),
+         url('/src/fonts/NotoSans-Thin.woff2') format('woff2');
+    font-display: swap;
+}
+
+h2 {
+    font-family: 'Noto Serif Display', serif;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}

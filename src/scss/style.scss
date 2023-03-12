@@ -1,0 +1,86 @@
+@import 'partials/globals',
+        'partials/mixins',
+        'partials/typography',
+        'partials/variables';
+
+#card {
+    background-color: #000000d0;
+    color: #f5f5f5;
+    padding: 25px 30px;
+    border-radius: 30px;
+    margin: 16px;
+    width: 100%;
+    max-width: 480px;
+    .search {
+        @include flex-central-alignment;
+        button {
+            margin: 5px;
+            border-radius: 50%;
+            border: none;
+            height: 45px;
+            width: 45px;
+            outline: none;
+            background: #7c7c7c2b;
+            color: #f5f5f5;
+            cursor: pointer;
+            @include cross-browser-support-transition-set;
+            &:hover {
+                @include cross-browser-support-scale-set;
+                @include cross-browser-support-transition-set;
+            }
+        }
+        input {
+            border: none;
+            outline: none;
+            padding: 8px 16px;
+            border-radius: 24px;
+            background: #7c7c7c2b;
+            color: #f5f5f5;
+            font-family: inherit;
+            font-size: 120%;
+            width: calc(100% - 50px);
+            @include cross-browser-support-transition-set;
+            &:focus {
+                background: #dddddd2d
+            }
+            &:hover {
+                background: #dddddd2d;
+                @include cross-browser-support-transition-set;
+            }
+        }
+    }
+    .search, .city {
+        padding-bottom: 20px;
+    }
+    .description-section {
+        display: flex;
+        align-items: center;
+        .icon {
+            margin-left: -20px;
+        }
+    }
+    .description {
+        font-size: 24px;
+    }
+    .description,
+    .wind {
+        text-transform: capitalize;
+    }
+    .humidity {
+        padding-bottom: 5px;
+    }
+}
+
+.weather .loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+    &::after {
+        visibility: visible;
+        content: "Loading...";
+        color: #f5f5f5;
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+}

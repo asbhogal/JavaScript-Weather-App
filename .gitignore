@@ -1,0 +1,18 @@
+### LOCAL CONFIG ###
+
+.vscode
+src/config.js
+
+### NOTES ###
+
+src/LondonWeather.json
+src/omitted-code.txt
+api-key.js
+
+### .env ###
+
+.env
+
+### NPM PACKAGES ###
+
+node_modules

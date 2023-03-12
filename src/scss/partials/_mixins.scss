@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin flex-central-alignment {
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
+}
+
+@mixin cross-browser-support-scale-set {
+    transform:              $scale-1-1;
+    -webkit-transform:      $scale-1-1;
+    -moz-transform:         $scale-1-1;
+    -o-transform:           $scale-1-1;
+    -ms-transform:          $scale-1-1;
+}
+
+@mixin cross-browser-support-transition-set {
+    transition:             $transition-03;
+    -webkit-transition:     $transition-03;
+    -moz-transition:        $transition-03;
+    -o-transition:          $transition-03;
+}

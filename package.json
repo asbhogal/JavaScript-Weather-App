@@ -1,0 +1,28 @@
+{
+  "name": "javascript-weather-app",
+  "version": "1.0.0",
+  "description": "A JavaScript weather app which consumes the OpenWeather API",
+  "main": "script.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbhogal/JavaScript-Weather-App.git"
+  },
+  "keywords": [],
+  "author": "Aman Singh Bhogal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbhogal/JavaScript-Weather-App/issues"
+  },
+  "homepage": "https://github.com/asbhogal/JavaScript-Weather-App",
+  "devDependencies": {
+    "sass": "^1.59.2",
+    "sass-loader": "^13.2.0",
+    "vite": "^4.1.4"
+  }
+}
